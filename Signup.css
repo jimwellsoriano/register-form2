@@ -1,0 +1,146 @@
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sing-up-container{
+background-color: white;
+width: 400px;
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+ justify-content: center;
+}
+
+
+
+.sing-up-container input{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Roboto, arial;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.sing-up-container input::placeholder{
+    font-size: 15px;
+    font-family: Roboto, arial;
+}
+
+
+.Sign-up{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.Sign-up-btn{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: opacity 0.15s;
+}
+
+.Sign-up-btn:hover{
+    opacity: 0.8;
+}
+
+.Sign-up-btn:active{
+    opacity: 0.6;
+}
+
+.Join-with{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.icon-container{
+    display: flex;
+    margin-top: 3px;
+   
+}
+
+.icon-container i{
+    font-weight: 700;
+    border: none;
+   color: black;
+   margin-left: 10px;
+}
+
+.google-icon{
+    font-size: 22px;
+    margin-right: 10px;
+    
+}
+
+.facebook-icon{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.twitter-icon{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 2px;
+}
+
+.background{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-container{
+    position: relative;
+}
+
+.Account-container{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Have-an-account{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Signin{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    transition: opacity 0.15s;
+}
+
+.Signin:hover{
+    opacity: 0.9;
+}
+
+.Signin:active{
+    opacity: 0.6;
+}

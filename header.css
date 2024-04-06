@@ -1,0 +1,26 @@
+.header-container{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.left-side{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigt-side{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

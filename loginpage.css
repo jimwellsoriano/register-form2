@@ -1,0 +1,190 @@
+
+.loginpage-container{
+ display: flex;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+
+
+.img-seft-side{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-container{
+    position: relative;
+   
+}
+
+.CREATE-container{
+ 
+    position: absolute;
+    bottom: 230px;
+    left: 180px;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CREATE-account{
+    font-weight: 700;
+    font-family: Roboto, arial;
+    font-size: 20px;
+}
+
+.btn-signup-left{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    transition: opacity 0.15s;
+}
+
+.btn-signup-left:hover{
+    opacity: 0.9;
+}
+
+.btn-signup-left:active{
+    opacity: 0.7;
+}
+
+.right-side{
+    background-color: white;
+}
+
+
+.right-side{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign-up-text{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.email{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Roboto, arial;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.password{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Roboto, arial;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.Rememberme-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+.Remember-me{
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.Rememberme-container a {
+    font-size: 13px;
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 500;
+
+}
+
+.btn-signup{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: opacity 0.15s;
+}
+
+.btn-signup:hover{
+    opacity: 0.9;
+}
+
+.btn-signup:active{
+    opacity: 0.8;
+}
+
+.or-join-with{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container i{
+    font-weight: 700;
+    border: none;
+   color: black;
+   margin-left: 10px;
+}
+
+.google-icon{
+    font-size: 22px;
+    margin-right: 10px;
+    
+}
+
+.facebook-icon{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.twitter-icon{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 2px;
+}
+
+.footer{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 10px;
+}
